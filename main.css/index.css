@@ -15,8 +15,12 @@ body {
     transform: translate(50%, 50%);
     border: 15px solid black;
     border-radius: 50%;
-    background-image: url(../images/images.png);
-    
+    background-image: url(../images/laikrodis.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+       
 }
 
 .sekundes {
@@ -28,7 +32,7 @@ body {
     left: 149px;
     z-index:2;
     transform-origin: bottom;
-    /* animation: sekundes_animation 60s linear infinite; */
+    animation: sekundes_animation 10s linear infinite;
 }
 
 @keyframes sekundes_animation {
@@ -45,7 +49,7 @@ body {
     left: 148px;
     z-index:1;
     transform-origin: bottom;
-    /* animation: minutes_animation 3600s linear infinite; */
+    animation: minutes_animation 20s linear infinite;
 }
 
 @keyframes minutes_animation {
@@ -56,13 +60,13 @@ body {
 .valandos {
     position: relative;
     height: 100px;
-    width: 8px;
-    background: black;
+    width: 5px;
+    background: rgba(0, 0, 0, 0.863);
     top: -220px;
-    left: 145.5px;
+    left: 147.5px;
     z-index:1;
     transform-origin: bottom;
-    /* animation: valandos_animation 84600s linear infinite; */
+    animation: valandos_animation 30s linear infinite;
 }
 
 @keyframes valandos_animation {
